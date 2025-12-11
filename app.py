@@ -5,4 +5,10 @@ import pandas as pd
 # Sidebar contents
 st.sidebar.title("KNU Top AI")
 img = Image.open("logo.jpg")
-st.sidebar.image(img)
+st.sidebar.image(img, width=10)
+
+# //////////////////////////////////////////////////////////
+
+st.title('KNU Top AI Dashboard')
+
+st.write(datetime)
