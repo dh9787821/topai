@@ -16,4 +16,4 @@ st.title('KNU Top AI Dashboard')
 
 now = datetime.now()
 st.write(datetime(now.year, now.month, now.day))
-<div style="text-align: right"> your-text-here </div>
+st.markdown('<div style="text-align: right;">now.year</div>', unsafe_allow_html=True)
