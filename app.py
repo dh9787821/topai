@@ -14,4 +14,4 @@ st.sidebar.image(img, width=40)
 
 st.title('KNU Top AI Dashboard')
 
-st.write(datetime(now.date()))
+st.write(datetime(now.year, now.month, now.day))
